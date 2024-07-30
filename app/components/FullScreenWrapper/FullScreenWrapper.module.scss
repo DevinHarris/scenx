@@ -1,0 +1,15 @@
+.fullScreenWrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100dvh;
+}
+
+.hiddenOverFlow {
+    overflow: hidden;
+}
+
+.flexColumn {
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.form_input {
+
+    width: 100%;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border: none;
+}
+
+.form_btn {
+    
+    @extend .form_input;
+    background-color: hsl(0, 100%, 95%);
+    font-weight: 700;
+    font-size: 1rem;
+    color: #423939;
+    margin-top: 1.5rem;
+}

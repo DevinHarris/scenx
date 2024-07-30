@@ -1,0 +1,22 @@
+.heroImageWrapper {
+    height: 50rem;
+    // width: 80%;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-30px);
+    }
+}
+
+.heroImage {
+    border-radius: 24px;
+    height: 100%;
+    object-fit: cover;
+    // object-position: top;
+    width: 100%;
+}

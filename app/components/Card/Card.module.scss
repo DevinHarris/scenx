@@ -1,0 +1,15 @@
+.card {
+    border-radius: 24px;
+    display: flex;
+    /* height: 40rem; */
+    flex-direction: column;
+    padding: 4rem 5rem;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 35rem;
+}
+
+.cardMediaWrapper {
+    max-width: 100%;
+    align-self: self-end;
+}
